@@ -490,6 +490,11 @@ a.play span:hover{
 width:100%;
 height:50px;
 background-color:#281D24;
+padding:1.5em 0;
+letter-spacing: 0.20em;
+text-align: center;
+font-size: 0.80em;
+color: rgba(255,255,255,0.3);
 }
 
 copy-right{
@@ -504,12 +509,7 @@ copy-right a{
 	color:#FFF;
 	text-decoration:none;
 }
-.copyright p {
-  padding:1.5em 0;
-  letter-spacing: 0.20em;
-  text-align: center;
-  font-size: 0.80em;
-  color: rgba(255,255,255,0.3);
+
 /***------timeline--------**/
 ul.timeline {
            list-style-type: none;
