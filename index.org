@@ -1,10 +1,9 @@
-#+TITLE:     How you export Org mode files into awesome HTML in 2 minutes
+#+TITLE:     To be a creator,a designer,a leader and a lady.
 #+AUTHOR:    Zoey Xin
 #+EMAIL:     xinduihong@163.com
 #+DESCRIPTION: Org-HTML export made simple.
 #+KEYWORDS:  org-mode, export, html, theme, style, css, js, bigblow
 #+LANGUAGE:  en,chn
-#+OPTIONS:   H:4 toc:t num:2
 
 
 * Overview
