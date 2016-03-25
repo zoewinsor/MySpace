@@ -1,4 +1,4 @@
-#+TITLE:     To be a creator,a designer,a leader and a lady.
+#+TITLE:     To be a creator , a designer , a leader and a lady.
 #+AUTHOR:    Zoey Xin
 #+EMAIL:     xinduihong@163.com
 #+DESCRIPTION: Org-HTML export made simple.
