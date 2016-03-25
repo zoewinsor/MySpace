@@ -1,20 +1,11 @@
 #+TITLE:     How you export Org mode files into awesome HTML in 2 minutes
-#+AUTHOR:    Fabrice Niessen
-#+EMAIL:     (concat "fniessen" at-sign "pirilampo.org")
+#+AUTHOR:    Zoey Xin
+#+EMAIL:     xinduihong@163.com
 #+DESCRIPTION: Org-HTML export made simple.
 #+KEYWORDS:  org-mode, export, html, theme, style, css, js, bigblow
-#+LANGUAGE:  en
+#+LANGUAGE:  en,chn
 #+OPTIONS:   H:4 toc:t num:2
 
-#+PROPERTY:  header-args :padline no
-#+SETUPFILE: setup/theme-readtheorg.setup
-
-#+html: <a href="http://opensource.org/licenses/GPL-3.0">
-#+html:   <img src="http://img.shields.io/:license-gpl-blue.svg" alt=":license-gpl-blue.svg" />
-#+html: </a>
-#+html: <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=VCVAS6KPDQ4JC&lc=BE&item_number=org%2dhtml%2dthemes&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted">
-#+html:   <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="btn_donate_LG.gif" />
-#+html: </a>
 
 * Overview
 
