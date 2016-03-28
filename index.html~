@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en,ch" xml:lang="en,ch">
 <head>
-<!-- 2016-03-28 周一 20:52 -->
+<!-- 2016-03-28 周一 20:46 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title>辛对红的Wiki</title>
@@ -187,9 +187,10 @@ for the JavaScript code in this tag.
 <h3 id="orgheadline2"><span class="section-number-3">1.1</span> 工作</h3>
 <div class="outline-text-3" id="text-1-1">
 </div><div id="outline-container-orgheadline1" class="outline-4">
-<h4 id="orgheadline1"><span class="section-number-4">1.1.1</span> <span class="done DONE">DONE</span> 2016年3月28日</h4>
+<h4 id="orgheadline1"><span class="section-number-4">1.1.1</span> <span class="todo TODO">TODO</span> 2016年4月 任务列表</h4>
 </div>
 </div>
+
 
 
 <div id="outline-container-orgheadline3" class="outline-3">
@@ -254,7 +255,7 @@ for the JavaScript code in this tag.
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: XinDuihong</p>
-<p class="date">Created: 2016-03-28 周一 20:52</p>
+<p class="date">Created: 2016-03-28 周一 20:46</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
