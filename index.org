@@ -4,54 +4,157 @@
 #+DESCRIPTION: 
 #+KEYWORDS:
 #+LANGUAGE:  en,ch
-#+OPTIONS:   H:4 num:t toc:2
-
+#+OPTIONS:   H:3 num:t toc:2
 #+SETUPFILE: theme.setup
 
+# +BEGIN_CENTER
+Everything should be made as simple as possible,but not any simpler -- Albert Einstein
+# +END_CENTER
+-----
+* About QA
 
+** 测试工具							       :工具:
+
+
+*** Selenium
+*** Loadrunner
+*** Jmeter
+*** SoapUI
+*** Postman
+*** Junit
+*** Spotlight
+*** Kali Linux
+*** 兼容性测试
+
+** 管理工具							       :工具:
+
+*** Jekins
+*** Testlink
+*** Bugzilla
+*** Mantis
+*** BugFree
+*** Clear Quest
+*** Quality Center
+*** Jira
+*** Xmind
+
+** 测试理论							       :基础:
+
+*** 白盒测试
+
+*** 黑盒测试
+
+*** 静态测试和动态测试
+
+*** 非功能测试
+
+*** 自动化测试
+
+*** 项目流程
+
+*** 敏捷管理
+
+** 软件架构							       :系统:
+
+*** 测试框架
+*** 架构分析
+
+** 项目平台							       :平台:
+*** B/S架构
+*** C/S架构
+*** 嵌入式
+*** Android系统
+*** iOS系统
+
+** 经验案例 							       :经验:
+
+** 职业发展							       :规划:
+
+-----
+
+
+* Programming
+** Wiki
+*** Markdown
+*** Org-mode
+** Python
+
+** Java
+** C语言
+** Shell
+** Git
+** Html
+** CSS DIV
+** 数据库
+** 算法
+** 数据结构
+** 开源项目
+** 个人项目
 #+begin_html
 <div class="right">
   <a href="https://github.com/zoewinsor" class="fa fa-github"> Visit me on GitHub</a>
 </div>
 #+end_html
+*** 微信平台开发
+*** 网站开发
+*** 测试工具开发
 
-* 任务管理
+-----
 
-** 工作 							       :work:
-  :PROPERTIES:
-  :CATEGORY: 
-  :END:
+* About Design
 
-*** TODO 今天的任务
+** PhotoShop
+** Premiere
+** Illustrator
+** Flash
+** InDesign
+** 设计赏析
+** 个人作品
 
-** 学习 							       :study：				    
-  :PROPERTIES:
-  :CATEGORY: 
-  :END:
+-----
 
+* Summarizing
 
-** 健身 	                                                       :exercise：				    
-  :PROPERTIES:
-  :CATEGORY: 
-  :END:
+** 观影札记
+** 闲书杂谈
 
+-----
 
+* Language
 
+** 英语
+** 日语
+** 韩语
+** 法语
+** 西班牙语
+
+* Life Journal 
+
+** 游记
+** 古筝
 ** 书法
+** 绘画
+** 瑜伽
+** 绿植
+** 食谱
+-----
 
-** 英语学习
+* Fancy Stuff
+** 札记
+** 脑洞
+** 树洞
+-----
 
+* Schedule　
+** 网站更新
 
+| *序号* |    *时间* | *类别*   | *更新*                                         | *备注*                                                    | *自言自语* |
+|--------+-----------+----------+------------------------------------------------+-----------------------------------------------------------+---|
+|      1 | 2015.3.29 | Wiki上线 | 完成基本类别架构和风格设计编码，Github文件更新 | 使用Emacs Org-mode编写，使用org-html-themes，托管在Github | 创造一件东西就跟生孩子一样痛苦而喜悦，而且生完还得养，虽然我并没生过 |
 
-* 日程计划
-
-* 读书笔记
-
-* 编程开发
-
-* 测试综合
-
-* 交互设计
-
-* 脑洞树洞
+** 待办事项
+*** 3月30日事件列表
+**** TODO 
+**** TODO 
+**** TODO 
 
