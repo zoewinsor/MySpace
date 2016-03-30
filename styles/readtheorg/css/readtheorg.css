@@ -61,7 +61,7 @@ body{
 #content{
     background:#fcfcfc;
     height:100%;
-    margin-left:300px;
+    margin-left:15%;
     /* margin:auto; */
     /* max-width:800px; */
     min-height:100%;
@@ -442,7 +442,7 @@ sub{
 img{
     -ms-interpolation-mode:bicubic;
     vertical-align:middle;
-    max-width:100%}
+    max-width:15%}
 
 svg:not(:root){
     overflow:hidden}
@@ -723,7 +723,7 @@ hr{
     position:fixed;
     top:0;
     left:0;
-    width:300px;
+    width:15%;
     overflow-x:hidden;
     overflow-y:scroll;
     height:100%;
@@ -825,7 +825,7 @@ footer p{
     position:fixed;
     bottom:0;
     left:0;
-    width:300px;
+    width:15%;
     color:#fcfcfc;
     background:#1f1d1d;
     border-top:solid 10px #343131;
