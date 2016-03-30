@@ -317,7 +317,8 @@ code{
     border:1px solid #e1e4e5;
     padding:12px;
     overflow-x:auto;
-    background:#fff;
+    background: #ECEBEB;
+    color: #3B3BB9;
     margin:1px 0 24px 0}
 
 pre.src{
@@ -959,7 +960,7 @@ h2.footnotes{
 
 .footnum, .footref{
     color: #FE007F;
-    font-size: 170%;
+    font-size: 30%;
     font-family:"Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
 }
 
