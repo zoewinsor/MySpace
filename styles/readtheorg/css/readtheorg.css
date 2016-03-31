@@ -61,7 +61,7 @@ body{
 #content{
     background:#fcfcfc;
     height:100%;
-    margin-left:15%;
+    margin-left:240px;
     /* margin:auto; */
     /* max-width:800px; */
     min-height:100%;
@@ -724,7 +724,7 @@ hr{
     position:fixed;
     top:0;
     left:0;
-    width:15%;
+    width:240px;
     overflow-x:hidden;
     overflow-y:scroll;
     height:100%;
@@ -826,7 +826,7 @@ footer p{
     position:fixed;
     bottom:0;
     left:0;
-    width:15%;
+    width:240px;
     color:#fcfcfc;
     background:#1f1d1d;
     border-top:solid 10px #343131;
