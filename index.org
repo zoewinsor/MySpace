@@ -4,297 +4,128 @@
 #+DESCRIPTION: 
 #+KEYWORDS:
 #+LANGUAGE:  en,ch
-#+OPTIONS:   H:4 num:t toc:2
+#+OPTIONS:   H:3 num:t toc:2
 #+SETUPFILE: theme.setup
 
 # +BEGIN_CENTER
-Everything should be made as simple as possible,but not any simpler -- Albert Einstein
+Everything should be made as simple as possible,but not any simpler -- Albert Einstein && 正经话只用图表和代码说的程序媛
 # +END_CENTER
 -----
-* About QA
+* Git
+      Git是个分布式版本控制系统，以前在一个神秘兮兮的单位一直用SVN，后来买了这个域名才开始学习。从一个大叔的官网开始入门的，当然不知道廖雪峰是不是大叔，总之，知识渊博又有耐心的程序员统称大叔。\\
+  这个链接号称是史上最浅显易懂的Git教程，但地址链接长得令人发指，一个字，难看。 http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000 \\
+  下面是图表，你看不懂可以在拉到页面底端，给个评论，好让我鄙视你。\\
+  [[~/MySpace/image/git.png]] \\
+* Python
+  刚接触的Python的时候跟大部分的小白一样（虽然现在也是小白），纠结着到底是学Python2.7呢还是Python3.0呢，重要性约等于小时后纠结长大了是上清华还是北大。\\
+  像我这种喜欢炫耀与时俱进的人私下是想学Python3.0的，3.0>2.7嘛，对吧。\\
+  最后公司的大神说项目组用的都是Python2.7，一组两治是要怎么破？于是我乖乖捡起了Python2.7的教程。\\
+** 秒懂Python
+  题目是假的，不要相信，就跟21天精通xx一样，能决定一座大厦造多高的还是基石。
+  [[~/MySpace/image/python0.jpg]] \\
+** Python基础语法
+   思维导图原件见这个丑链接：http://naotu.baidu.com/file/04db42e59bfb3640cbdb99f1bc3673a5?token=53b85b506f919857  \\
+  [[~/MySpace/image/python1.png]]  \\
+** Python高级特性
+   思维导图原件见这个更丑的链接：http://naotu.baidu.com/file/04db42e59bfb3640cbdb99f1bc3673a5?token=53b85b506f919857 \\
+  [[~/MySpace/image/python2.png]]\\
 
-** 测试工具							       :工具:
+* Wiki
+  有个大神告诉我世界上有MdWiki这种东西，于是我迷上了MarkDown;\\
+  又有个大神告诉我世界上Vim党还有Emacs党，Emacs里有个Org-mode，而我现在只学会用来写文档。\\
+  当程序媛仅仅的好处可能是: 当遇到问题的时候，能更被温柔而耐心地对待。IT领域的性别歧视无法忽视，仰天长叹！仰天长叹出门去，我辈岂是蓬蒿人，哪里不对吗？\\
+** MarkDown
+*** MarkDown
+  这是一种标记语言，支持多种格式，跨平台解析，真的轻量级，语法很简单，你要觉得我在骗你，那以后你恐怕是得交智商税了。\\
+   [[~/MySpace/image/MarkDown.png]] \\
+***  MdWiki 
+MdWiki这是个支持MarkDown语法文档的主题,把写好的文档跟主题仍在一起后在浏览器端打开，当当当，美如画~~晕不晕，晕就对了，高斯模糊+动感模糊的加密文档，我赌一块钱，你不想再看了~往下走吧 \\  
+    [[~/MySpace/image/md.png]]\\ 
+*** StackEdit
+ 编辑的文档要预览格式可以用google chrome的插件StackEdit，一边写文档，一边看格式，一边看格式，一边看文档，无限循环\\
+    [[~/MySpace/image/StackEdit.png]]\\
+** Org-mode
+  Org-mode语法是MarkDown内容的多少倍我不就说了，直接上图，啊，图好长，出门右转看思维导图去吧，就是这个丑链接：http://naotu.baidu.com/file/4f1450d23ffd8d79698eb4469071d48d?token=3989fc33acac6871 \\
+  千万不要参照着来，Emacs的奇技淫巧不是一两句话就可以总结完的，我只是大自然的搬运工。\\   
+* SQL
+  这个放在这只是因为标题很短，其实是不想总结，我喜欢图形界面，我真的喜欢图形界面。
+* Shell
+  说起Linux，有个传奇叫鸟哥，他写了一本私房菜，不过以后按我的规则以后升级为鸟叔了。\\
+  这里只提Shell，也不敢说学完了，鸟叔的官网是 http://vbird.dic.ksu.edu.tw/
+** Shell基础
+ [[~/MySpace/image/shell0.png]]   \\
+** Shell编程
+  [[~/MySpace/image/shell1.png]]  \\
+* Java
+  这个放在这只是因为标题很短，而且同样学不完，心好累，感觉不会再爱了。
+* Algorithm
+  这个放在这只是因为标题很短，而且永远学不完。下面是你小学时就会的算法，木哈哈~~瞪我干什么，我又没说是程序设计算法\\
+      [[~/MySpace/image/A0.jpg]]\\
+* Jenkins
+ Jenkins是一个基于社区开发的开源可扩展持续集成服务（CI）,源于Hudson，使用java开发。它可以持续编译，运行你的代码；运行UT或集成测试；将运行结果发送至邮件，或展示成报告。\\
+ 容易配置，插件又多，构建方式多，部署方式又多，同时可以监控一些定时执行的任务，无须人工干预，也是个偷懒的利器。\\
+ 我的理想是Jenkins+gitlab+TestLink+Bugzilla+LDAP认证+Findbugs+testNG+ssh分布式部署测试360全自动化，但因为服务器权限不在我这，IT又不会配，Jenkins只是一个构建部署的小家伙，作用有限，沉吟至今。\\
+* TestNG
+  这是一个单元测试框架，注脚和xml配置让用例执行起来方面很多。\\
+      [[~/MySpace/image/testng.png]]\\
+      [[~/MySpace/image/testngxml.png]]\\
+* Selenium
+** UI自动化
+     [[~/MySpace/image/selenium0.png]]\\
+** Selenium相关   
+  元素定位方法的优缺点\\
+      [[~/MySpace/image/seleniumb1.jpg]]\\
+  元素定位方法的性能比较\\
+      [[~/MySpace/image/seleniumb2.jpg]]\\
+  发福利了，教程链接：http://www.51testing.com/zhuanti/selenium.html
 
+* RobotFrameWork
+  自动化测试框架。我会告诉你图形界面ride这么丑吗？但我可能要跟这家伙打很久的交道，加上Selenium库的robot，也是自动化测试中的战斗机\\
+   [[~/MySpace/image/robot.png]]\\
 
-*** Selenium
-**** 简介
-**** 函数列表
-**** 经典代码
-*** Loadrunner
-*** Jmeter
-*** SoapUI
-*** Postman
-*** Junit
-*** TestNG
-*** Spotlight
-*** Kali Linux
-**** 简介
-*** Ubuntu Linux
-**** 简介
-**** 
-
-*** 兼容性测试
-
-** 管理工具							       :工具:
-
-*** Jekins
-**** Jekins是什么
-
-Jenkins是一个基于社区开发的开源可扩展持续集成服务（CI）,源于Hudson，使用java开发。它可以持续编译，运行你的代码；运行UT或集成测试；将运行结果发送至邮件，或展示成报告。同时可以监控一些定时执行的任务，无须人工干预，保证项目随时可以交付给用户。官网链接：
-[[https://jenkins.io/index.html]]
-
-
-**** Jekins的特性
-
-***** Jenkins容易安装和配置，而且提供了直观灵活的基于web的用户界面配置管理方案
-***** 具有强大的插件框架，目前已经拥有超过600中插件可供使用
-***** 支持多种构建语言，包括Python等
-***** 集成了RSS/Email通知机制
-***** 支持分布式构建
-***** Jenkins默认的权限管理体系不支持用户组或角色的配置，可以用匿名用户做任何事情。可以使用第三方插件来支持角色的配置
-
-
-**** Jekins的使用
-
-***** *Jekins配置*
-
-以下是我的实际经验总结记录，操作期间参考了一些网络文档。
-
-****** *持续集成系统的结构组成*
-
-Maven:自动构建过程，包括自动编译、分发、部署和测试；
-GitLab:代码存储库，即需要版本控制软件来保障代码的可维护性，同时作为构建过程的素材库;
-Jekins: 安装JDK1.8和tomcat，下载jekins文件，放到到tomcat下的wabapps目录下，启动tomcat;http://localhost:8080 打开Jekins即可打开Jekins看到一个慈祥的老头。
-
-
-****** *配置Jekins*
-
-
-安装所需插件，jenkins已经安装了Ant、Maven、Subversion、CVS、Mailer等常用插件，再安装如findbugs、checkstyle静态分析插件、Junit单元测试插件；
-
-安装方法: 在jenkins->"系统管理"->"插件管理"里面,可以查看需要更新的,已安装的和可选的插件。在线安装插件，在“可选插件”中选中要安装的插件安装。安装的时候需要在高级里面设置代理,确保jenkins可以上互联网,才能够进行在线安装和更新；安装后的插件位于jenkins的plugins中，后缀为jpi；
-
-*示例:FindBugs插件的安装*
-
-Step1:Jenkins安装findbugs插件
-Step2:pom.xml[1]中配置findbugs插件;
-
-#+begin_src xml -n
-<plugin> 
-   <groupId>org.codehaus.mojo</groupId> 
-    <artifactId>findbugs-maven-plugin</artifactId> 
-    <version>2.5.1</version> 
-    <configuration> 
-    <threshold>High</threshold>
-    <effort>Default</effort>
-     <findbugsXmlOutput>true</findbugsXmlOutput>
-     <findbugsXmlWithMessages>true</findbugsXmlWithMessages>
-     <xmlOutput>true</xmlOutput>
-     <formats><format>html</format></formats>
-     </configuration> 
- </plugin>
-
-#+end_src
-
-Step3:配置后，在Jenkins的Goals中设置findbugs:findbugs;
-
-
-*示例:Junit插件的安装*
-
-Step1:在pom.xml中配置junit
-
-#+begin_src xml -n
-
-<dependency>
-<groupId>junit</groupId>
-<artifactId>junit</artifactId>
-<version>4.8</version>
-<scope>test</scope>
-</dependency>
-
-#+end_src
-
-Step2:配置测试插件
-
-#+begin_src xml -n
-
-<plugin>
-<groupId>org.apache.maven.plugins</groupId>
-<artifactId>maven-surefire-plugin</artifactId>
-<version>2.7</version>
-<configuration>  
-<includes>  
-<include>**/*Test.java</include>  
-</includes>  
-</configuration>    
-</plugin>
-
-#+end_src
-
-Step3:Jenkins安装插件JavaTest Report Plugin，以便在jenkins中查看test报告。
-
-**** Jekins 管理方案
-Jekins可选的插件有许多，安装以下插件
-
-
-
-*** Testlink
-*** Bugzilla
-*** Mantis
-*** BugFree
-*** Clear Quest
-*** Quality Center
-*** Jira
-*** Xmind
-
-
-*** Excel
-** 测试理论							       :基础:
-
-*** 白盒测试
-
-*** 黑盒测试
-
-*** 静态测试和动态测试
-
-*** 非功能测试
-
-*** 自动化测试
-
-*** 项目流程
-
-*** 敏捷管理
-
-*** 文档编写
-** 软件架构							       :系统:
-
-*** 测试框架
-*** 架构分析
-
-** 项目平台							       :平台:
-*** B/S架构
-*** C/S架构
-*** 嵌入式
-*** Android系统
-*** iOS系统
-    
-** 经验案例 							       :经验:
-									 
-
-* Programming
-** Wiki
-*** Markdown
-*** Org-mode
-
-** Python
-
-** Java
-** C语言
-** Shell
-** Git
-** Web
-*** Html
-*** CSS DIV
-*** Javascript
-** 数据库
-** 算法
-** 数据结构
-** 开源项目
-** 个人项目
-#+begin_html
-<div class="right">
-  <a href="https://github.com/zoewinsor" class="fa fa-github"> Visit me on GitHub</a>
-</div>
-#+end_html
-*** 微信平台开发
-   话说是这样的，昨天去看一个闺密，脑洞一向大的闺密说要做一个针对歌手和商家合作的中介平台，以最小的成本去运营，考虑用微信公众号的方式，市场需求和可行性经不起分析和推敲，立马被身边的创业大神毙了，然而却引发了我一直以来对微信公众号开发的求知欲。
-  第一步: 以迅雷不及掩耳之势开通了一个叫极测（geek_test）的公众号，口号是“赋有神农尝百草精神的GeekTest，靠谱设计师测试开发的马甲”，因为没想好要做什么。把自己撞南墙的经验偶尔发布一二也不错。
-  第二步：去下载购买了一堆电子书。包括技术开发、运营推广、文案写作之类。
-  第三步：申请成为了开发者，得到了一个开发账号，但是还没买服务器。
-  | 序号 | 书籍名称                                                  | 作者            | 阅读时间 | 读后评价 | 阅读笔记链接   |
-  |    1 | 《文案训练手册》                                          | 约瑟夫·休格曼   |   2016.4 | 待补充   | 等补充读书笔记 |
-  |    2 | 《广告文案训练手册》                                      | 布鲁斯·本丁格尔 |   2016.4 | 同上     | 同上           |
-  |    3 | 《微信公众平台开发最佳实践》                              |                 |   2016.4 | 同上     | 同上           |
-  |    4 | 《微信公众平台从入门到精通1-17》                          |                 |   2016.4 | 同上     | 同上           |
-  |    5 | 《微信营销2.0：全面解析实战三大步骤、九大技巧和五大错版》 |                 |   2016.4 | 同上     | 同上           |
-  |    6 | 《微信公众号运营实操手册》                                | 张兴军          |   2016.4 | 同上     | 同上           |
-  |    7 | 《微信公众平台搭建与开发揭秘》                            | 易伟            |   2016.4 | 同上     | 同上           | 
-暂时就这些了，欲知后事如何，且听下回分解。
-   
-
-**** 微信平台的公众号类型
-   公众号的类型目前有服务号、订阅号、企业号三种，几种公众号的申请条件不一样。   
-  [[image/1.jpg]]
-***** 个人公众号
-   申请条件很简单，进行手机、邮箱、身份证认证的个人就可以，填写公众号信息，把名字想好，改了可就一辈子跟着了。一个手机号最多申请5个公众号。申请链接：
-[[https://mp.weixin.qq.com/]]
-   
-
-*** 网站开发
-*** 测试工具开发
+* SpotLight
+  性能数据可视化的利器，直接上图，不要被震撼到。
+** Spotlight for MySQL
+        [[~/MySpace/image/spotlight for mysql.png]]\\
+** Spotlight for windows
+        [[~/MySpace/image/spotlight for windows.png]]\\
+** Spotlight on Unix
+      [[~/MySpace/image/spotlight on unix.png]]\\
+* ELK Log System
+  ELK 由 ElasticSearch 、 Logstash 和 Kiabana 三个开源工具组成，就是帮助懒人搜集多台服务器的日志，能用机器干的事我们决不自己做，就是这么简单，就是这么任性，就是这么拽。
+* Http
+    [[~/MySpace/image/http0.png]]\\
+* Html[fn:1]
+  笔记和U盘一起丢了，正伤心，以下的不要更新了。
+* CSS/DIV
+* Jmeter
+* Postman
+* Kali Linux
+* Javascript
+* 数据结构
+* 收藏夹 
+  
+* 读书列表
+ 书单从2016年5月28日开始计算，以前的统统归零。
+ | *序号* | *书名* | *阅读时间* | *简评* |
+ |  1     |  黑客与画家 |  20160528  | 看了两章，不愧是硅谷之父，还是等看完了再决定拜不拜神 |
 
 -----
 
-* About Design
 
-** PhotoShop
-** Premiere
-** Illustrator
-** Flash
-** InDesign
-*** Axure RP
-** 设计赏析
-** 个人作品
+　
+* 网站更新记录
 
------
+| *序号* |    *时间* | *类别*   | *更新*                                         | *备注*                                                                                                             | *自言自语*                                                     |
+|--------+-----------+----------+------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------|
+|      1 | 2016.3.29 | Wiki上线 | 完成基本类别架构和风格设计编码，Github文件更新 | 使用Emacs Org-mode编写，使用org-html-themes，托管在Github                                                          | 创造一件东西就跟生孩子一样痛苦而喜悦，虽然我并没生过           |
+|      2 | 2016.3.30 | 内容创建 | 更新Jenkins的操作内容                          | Jenkins+maven+GitLab的持续集成                                                                                     | 这才刚开始写字，就时刻有一种此处省略一万字的冲动,喵~           |
+|      3 |  2016.4.1 | 打卡     | Jenkins构建失败                                | gradle是什么鬼                                                                                                     | 抓狂中                                                         |
+|      4 |  2016.4.4 | 打卡     | 删除部分近期不可能更新的类别                   | 开始学习微信公众号的开发和运营                                                                                     | 知道怎么添加图片了，被网络教程误导，直接添加路径，相对绝对都行 |
+|      5 |  2016.4.7 | 打卡     | 无                                             | 总结了testng和selenium webdriver的使用                                                                             | 搭建起自动化流程                                               |
+|      6 | 2016.4.13 | 打卡     | 没时间更新                                     | 编译后图片又无法显示了                                                                                             | 衰                                                             |
+|      7 | 2016.5.28 | 更新     | 增加评论插件，调整结构，更换夏天主题           | 觉得难看来咬我啊，删除了部分短期内不可能更新的章节，可以在评论区给意见，某个说我画的丹妮莉丝像马云的同学可以静默了 | 我没有你们想象的那么懒哦                                       |
 
-* Summarizing
-
-** 观影札记
-** 闲书杂谈
-
------
-
-* Language
-
-** 英语
-** 日语
-* Life Journal 
-
-** 游记
-** 古筝
-** 书法
-** 绘画
-** 瑜伽
-** 绿植
-
-** 食谱
------
-
-* Fancy Stuff
-** 札记
-** 脑洞
-** 树洞
------
-
-* Schedule　
-** 网站更新
-
-| *序号* |    *时间* | *类别*   | *更新*                                         | *备注*                                                    | *自言自语*                                                     |
-|--------+-----------+----------+------------------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------|
-|      1 | 2016.3.29 | Wiki上线 | 完成基本类别架构和风格设计编码，Github文件更新 | 使用Emacs Org-mode编写，使用org-html-themes，托管在Github | 创造一件东西就跟生孩子一样痛苦而喜悦，虽然我并没生过           |
-|      2 | 2016.3.30 | 内容创建 | 更新Jenkins的操作内容                          | Jenkins+maven+GitLab的持续集成                            | 这才刚开始写字，就时刻有一种此处省略一万字的冲动,喵~           |
-|      3 |  2016.4.1 | 打卡     | Jenkins构建失败                                | gradle是什么鬼                                            | 抓狂中                                                         |
-|      4 |  2016.4.4 | 打卡     | 删除部分近期不可能更新的类别                   | 开始学习微信公众号的开发和运营                            | 知道怎么添加图片了，被网络教程误导，直接添加路径，相对绝对都行 |
-| 5      |  2016.4.7 | 打卡       | 无                                              | 学习了testng和selenium webdriver的使用                           |  争取实现搭建起的自动化流程                                                 |
-
-** 待办事项
-***** DONE 完成Jekins的截图补充，不知道怎么添加截图呀，出来的总是个链接
-***** TODO 完成selenium的笔记总结，补充项目实例      
-***** DONE 完成Jenkins项目部署
-***** TODO 完成文案部分的总结
-***** TODO 了解maven和gradle的异同
-***** TODO 了解infer的使用 [[http://infer.liaohuqiu.net/]]
 * Footnotes
 
-[1] pom.xml:Project Object Model，项目对象模型。通过xml格式保存的pom.xml文件。作用类似ant的build.xml文件，功能更强大。该文件用于管理：源代码、配置文件、开发者的信息和角色、问题追踪系统、组织信息、项目授权、项目的url、项目的依赖关系等等。一个完整的pom.xml文件，放置在项目的根目录下。
+[fn:1] 有找互联网行业工作的同学可以联系我，小女子举贤不避亲，求才若渴哦。Show me the code ,just do IT.
