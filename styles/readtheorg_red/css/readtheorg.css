@@ -16,25 +16,24 @@ h1{
 }
 
 h2{
-    font-size:135%;
-    color:#2C6086;
+    font-size:150%;
+    color:#FE007F;
 }
 
 h3{
-    font-size:115%;
-    color:#0878B1;
+    font-size:125%;
 }
 
 h4{
-    font-size:105%;
+    font-size:115%;
 }
 
 h5{
-    font-size:100%;
+    font-size:110%;
 }
 
 h6{
-    font-size:95%;
+    font-size:100%;
 }
 
 h4,h5,h6{
@@ -50,7 +49,7 @@ html{
 }
 
 body{
-    background:#2D0606;
+    background:#edf0f2;
     color:#404040;
     font-family:"Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
     font-weight:normal;
@@ -70,7 +69,7 @@ body{
 }
 
 p{
-    font-size:14px;
+    font-size:16px;
     line-height:24px;
     margin:0px 0px 24px 0px;
 }
@@ -319,7 +318,7 @@ code{
     padding:12px;
     overflow-x:auto;
     background: #ECEBEB;
-    color: #464690;
+    color: #3B3BB9;
     margin:1px 0 24px 0}
 
 pre.src{
@@ -598,7 +597,7 @@ label{
     font-size:90%}
 
 a{
-    color:#0BCFD4;
+    color:#FE007F;
     text-decoration:none;
     cursor:pointer}
 
@@ -611,7 +610,7 @@ a:hover{
     color:#3091d1}
 
 a:visited{
-    color:#15898C}
+    color:#9B59B6}
 
 .left{
     text-align:left}
@@ -729,7 +728,7 @@ hr{
     overflow-x:hidden;
     overflow-y:scroll;
     height:100%;
-    background:#0D2121;
+    background:#343131;
     z-index:200;
     scrollbar-base-color: #1F1D1D;
     scrollbar-arrow-color: #b3b3b3;
@@ -739,7 +738,7 @@ hr{
 
 #table-of-contents h2{
     z-index:200;
-    background-color:#40c0c1;
+    background-color:#FE007F;
     text-align:center;
     padding:0.809em;
     display:block;
@@ -807,7 +806,7 @@ ul.nav li.active > a {
 }
 
 ul.nav li.active a {
-    color: #878787 !important;
+    color: gray !important;
     font-weight:bold;
     background-color: white;
     border-right:solid 0px white !important;
@@ -830,7 +829,7 @@ footer p{
     width:240px;
     color:#fcfcfc;
     background:#1f1d1d;
-    border-top:solid 10px #394040;
+    border-top:solid 10px #343131;
     font-family:"Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
     font-size: 90%;
     z-index:400;
@@ -845,7 +844,7 @@ footer p{
 #postamble .date {
     font-size: 90%;
     margin-bottom: 0px;
-    color: #6A8A8A;
+    color: #AE5A27;
 }
 
 #postamble .creator,#postamble .validation {
@@ -986,7 +985,7 @@ h2.footnotes{
 }
 
 .todo{
-    background-color: #F19FB8;
+    background-color: #f29f97;
     padding: 0px 4px;
     color: #fff;
 }
@@ -999,7 +998,6 @@ h2.footnotes{
     background-color: #6ab0de;
     padding: 0px 4px;
     color: #fff;
-    font-size: 18px;
 }
 
 .tag span {
