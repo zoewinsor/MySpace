@@ -8,7 +8,8 @@
 #+SETUPFILE: theme.setup
 
 # +BEGIN_CENTER
-Everything should be made as simple as possible,but not any simpler -- Albert Einstein && Õý¾­»°Ö»ÓÃÍ¼±íºÍ´úÂëËµµÄ³ÌÐòæÂ
+Talk is cheap,show me the code. --ÓÃÍ¼±íºÍ´úÂëËµ»°µÄ³ÌÐòæÂ
+Everything should be made as simple as possible,but not any simpler -- Albert Einstein
 # +END_CENTER
 -----
 * Git
@@ -95,26 +96,33 @@ MdWikiÕâÊÇ¸öÖ§³ÖMarkDownÓï·¨ÎÄµµµÄÖ÷Ìâ,°ÑÐ´ºÃµÄÎÄµµ¸úÖ÷ÌâÈÔÔÚÒ»ÆðºóÔÚä¯ÀÀÆ÷¶Ë´ò¿
   ELK ÓÉ ElasticSearch ¡¢ Logstash ºÍ Kiabana Èý¸ö¿ªÔ´¹¤¾ß×é³É£¬¾ÍÊÇ°ïÖúÀÁÈËËÑ¼¯¶àÌ¨·þÎñÆ÷µÄÈÕÖ¾£¬ÄÜÓÃ»úÆ÷¸ÉµÄÊÂÎÒÃÇ¾ö²»×Ô¼º×ö£¬¾ÍÊÇÕâÃ´¼òµ¥£¬¾ÍÊÇÕâÃ´ÈÎÐÔ£¬¾ÍÊÇÕâÃ´×§¡£
 * Http
     [[~/MySpace/image/http0.png]]\\
-* Html[fn:1]
-  ±Ê¼ÇºÍUÅÌÒ»Æð¶ªÁË£¬ÕýÉËÐÄ£¬ÒÔÏÂµÄ²»Òª¸üÐÂÁË¡£
-* CSS/DIV
+* Html/CSS/DIV
+  Ã»ÓÐ±ÈW3Cschool¸üºÃµÄ½Ì³ÌÁË£¬http://www.w3school.com.cn/ \\
 * Jmeter
+ ÐÔÄÜ²âÊÔµÄ¹¤¾ß£¬¸úLoadrunnerÀàËÆ¡£
+ [[~/MySpace/image/jmeter.png]]
 * Postman
+ ChromeµÄÒ»¸ö²å¼þ£¬ÓÃÀ´×ö½Ó¿Ú¹¦ÄÜ²âÊÔ»¹ÊÇ²»´íµÄ¡£\\
+[[~/MySpace/image/postman.png]]
 * Kali Linux
-* Javascript
-* Êý¾Ý½á¹¹
-* ÊÕ²Ø¼Ð 
+  ¸Ð¾õ»¹Ã»ÈëÃÅ£¬ÍøÂç»ù´¡Ì«±¡Èõ¡£\\
   
 * ¶ÁÊéÁÐ±í
  Êéµ¥´Ó2016Äê5ÔÂ28ÈÕ¿ªÊ¼¼ÆËã£¬ÒÔÇ°µÄÍ³Í³¹éÁã¡£
- | *ÐòºÅ* | *ÊéÃû* | *ÔÄ¶ÁÊ±¼ä* | *¼òÆÀ* |
- |  1     |  ºÚ¿ÍÓë»­¼Ò |  20160528  | ¿´ÁËÁ½ÕÂ£¬²»À¢ÊÇ¹è¹ÈÖ®¸¸£¬»¹ÊÇµÈ¿´ÍêÁËÔÙ¾ö¶¨°Ý²»°ÝÉñ |
+ | *ÐòºÅ* | *ÊéÃû*                           |        *ÔÄ¶ÁÊ±¼ä* | *¼òÆÀ*                 |
+ |      1 | ºÚ¿ÍÓë»­¼Ò                       | 20160528-20160602 | ¸ßÎÝ½¨ê²               |
+ |      2 | Éç»á¹¤³ÌÑ§                       |          201606   | ×î½üÃ»¶ÁÊé£¬¸Ð¾õÏñÖ»Öí |
+ |      3 | RobotFramework×Ô¶¯»¯²âÊÔÐÞÁ¶±¦µä |            201606 | ×Ô¶¯»¯Àà               |
+ |      4 | selenium2 python×Ô¶¯»¯²âÊÔÊµÕ½   |            201606 | ×Ô¶¯»¯Àà               |
+ |      5 | WebÉøÍ¸¼¼Êõ¼°ÊµÕ½°¸Àý½âÎö        |            201607 | °²È«Àà                 |
+ |      6 | Èí¼þÐÔÄÜ²âÊÔÓëLoadrunnerÊµÕ½½Ì³Ì |            201606 | ÐÔÄÜÀà                 |
+ |      7 | Kali LinuxÉøÍ¸½Ì³Ì               |            201607 | °²È«Àà                 |
+ |      8 | Head First Python                |            201607 | ±à³ÌÀà                 |
 
 -----
 
-
 ¡¡
-* ÍøÕ¾¸üÐÂ¼ÇÂ¼
+* ÍøÕ¾¸üÐÂ¼ÇÂ¼[fn:1] 
 
 | *ÐòºÅ* |    *Ê±¼ä* | *Àà±ð*   | *¸üÐÂ*                                         | *±¸×¢*                                                                                                             | *×ÔÑÔ×ÔÓï*                                                     |
 |--------+-----------+----------+------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------|
@@ -125,6 +133,7 @@ MdWikiÕâÊÇ¸öÖ§³ÖMarkDownÓï·¨ÎÄµµµÄÖ÷Ìâ,°ÑÐ´ºÃµÄÎÄµµ¸úÖ÷ÌâÈÔÔÚÒ»ÆðºóÔÚä¯ÀÀÆ÷¶Ë´ò¿
 |      5 |  2016.4.7 | ´ò¿¨     | ÎÞ                                             | ×Ü½áÁËtestngºÍselenium webdriverµÄÊ¹ÓÃ                                                                             | ´î½¨Æð×Ô¶¯»¯Á÷³Ì                                               |
 |      6 | 2016.4.13 | ´ò¿¨     | Ã»Ê±¼ä¸üÐÂ                                     | ±àÒëºóÍ¼Æ¬ÓÖÎÞ·¨ÏÔÊ¾ÁË                                                                                             | Ë¥                                                             |
 |      7 | 2016.5.28 | ¸üÐÂ     | Ôö¼ÓÆÀÂÛ²å¼þ£¬µ÷Õû½á¹¹£¬¸ü»»ÏÄÌìÖ÷Ìâ           | ¾õµÃÄÑ¿´À´Ò§ÎÒ°¡£¬É¾³ýÁË²¿·Ö¶ÌÆÚÄÚ²»¿ÉÄÜ¸üÐÂµÄÕÂ½Ú£¬¿ÉÒÔÔÚÆÀÂÛÇø¸øÒâ¼û£¬Ä³¸öËµÎÒ»­µÄµ¤ÄÝÀòË¿ÏñÂíÔÆµÄÍ¬Ñ§¿ÉÒÔ¾²Ä¬ÁË | ÎÒÃ»ÓÐÄãÃÇÏëÏóµÄÄÇÃ´ÀÁÅ¶                                       |
+|      8 | 2016.6.18 | ¸üÐÂ     | ²¹³ä¿Õ°×²¿·ÖÄÚÈÝ£¬É¾³ý²»¸üÐÂµÄÕÂ½Ú                      | ×î½ü¸ÏÏîÄ¿½ø¶È£¬Á¬Öá×ª£¬Ã»Ê±¼ä¸üÐÂÁË¡£²»¶Ï×ö¼õ·¨£¬Éú»îÔ¼À´Ô½¼òµ¥¶ø´¿´â                                                              | ÀÛ¾õ²»°®                                                       |
 
 * Footnotes
 
