@@ -32,6 +32,6 @@ branches:
     - hexo-theme
 
 env:
- global:
-     - GH_REF: github.com/zoewinsor/MySpace.git
+  global:
+    - GH_REF: github.com/zoewinsor/MySpace.git
     - secure: "CkVYYqXju1MdOT5tLlXz7IgHH0L2Uh+SCfSP7IE3XCBrI+Fa1QUC8tVfpUwhKu95H/kxopayY0OkEYsungaRumVL6cOhAko1qMC5XzgQwSneK4PBvlvhkRrkMeARfETJDc2hyDGQNko0sZNQW1yuyPBPdlrkS0KAKssXxVSE1fVSa0arHfkJu/aS8DHq5XOQXcU3XctXXSYo7wP21K+toHfsSc+ruE1AAfCsrmf52ZP6wN9Kypherc+ANTvOg2klXCBD+hSadxJnr2nFZnt0fQWQ+ETlJ/InU6LqCeg/dhuB4xWGcQDE3GFZLMPVw8aSv/noG3ahuIRX9vZZgXhlKImadjmbJEmHq9ZBaQVpK1+859dONt0bNcC/VrV8zIf1gc4M4l/uzvifIs/co0TExXR7zR+fcPoqxSujyIV/omIhxoTKzXv0/2Qzu6sRwaAHdqDC9fuI58V45kp7Xf6JNAuuztI9tX+ebvboXhyEfs1dCPocsyPHGnOtt8q/DMLxQw9tLpiMBSuEqEjr+4OwvNrUXPt14KX7teWw9We/uAaC2k4e6g0TI2fnEfEPxbw29ePqFEeKV5az6lEaRUEdE2sO0fIPVOG36ChVm2r+8OoZR4Btv+mJPYycKpEzf8nR44r1G7zjg7RPxKDLiqesiwfklz9S/l7Ccb2UvBLQ3fQ="
