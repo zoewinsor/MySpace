@@ -16,7 +16,7 @@
 　　那么今天来计算下借助科学的力量致富的可能性，先来看看微信的红包分配算法。
 　　首先，这个算法目测需满足以下需求">
 <meta property="og:image" content="http://xinduihong.cn/image/20161003/thumbnail.jpg">
-<meta property="og:updated_time" content="2016-10-05T17:07:10.003Z">
+<meta property="og:updated_time" content="2016-10-07T06:00:09.667Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="由抢红包引发的随机数设想">
 <meta name="twitter:description" content="某年某月某天，群里土豪发了大红包，你手速极快，打开，啊，1分钱！然后你想，大概是不能抢太快，等着最后捡余额吧，终于打开心心念念的最后一个红包，啊，还是1分钱！你愤怒得欲摔手机，自疑是不是上月养死了一盆花或者跟家里的阿猫阿狗斗气导致人品掉光……真的是这样吗，哈哈，这极有可能是真的。
@@ -266,8 +266,7 @@ var _hmt = _hmt || [];
 <p>　　1.  <strong>预先分配</strong></p>
 <p>　　在土豪把10元钱分成10份发出时，用预先准备好的随机数算法将10元分成10份，每一份的金额在发出的那一刻已经确定。10份是一个队列的话，领取的人就按打开红包的先后顺序获取红包。一个人获取的金额由以下因素决定：红包总金额－＞随机数分配算法－＞领取人的网速、手机配置、反应速度等等原因决定的获取顺序。</p>
 <p>　　或者随机数算法将10元分成10份后放在一个奖金池，领取的人获取时，随机抽取池中的一份。一个人获取的金额由以下因素决定：红包总金额－＞随机数分配算法－＞红包随机抽取算法。</p>
-<p>　　2.  <strong>实时计算</strong></p>
-<p>　　在土豪把10元钱发出时，每有一个人领取红包时调用一次算法进行随机数计算，这样可根据余额随时调整。一个人获取的金额由以下因素决定：红包余额（总额-前领取人的随机获取的金额）-&gt;随机数分配算法。</p>
+<p>　　2.  <strong>实时计算</strong><br>　　<br>　　在土豪把10元钱发出时，每有一个人领取红包时调用一次算法进行随机数计算，这样可根据余额随时调整。一个人获取的金额由以下因素决定：红包余额（总额-前领取人的随机获取的金额）-&gt;随机数分配算法。</p>
 <p>　　第１种思路按队列抽取的话存在一定的必然性，比如某人的手机太卡，那么他打开红包时顺序注定比较靠后，甚至个人获取的金额是可以根据算法预估的，金额分布可以一次控制。整个过程一共计算1次。</p>
 <p>　　第１种思路按奖金池抽取的话，发红包是进行一次红包分配算法计算，领取人每打开一次会进行一次随机数抽取算法计算，获取的金额仍是可整体预估的，金额分布可以一次控制。整个过程一共计算11次。</p>
 <p>　　第２种思路因为获取红包的行为是承前启后的，领取人每打开一次会进行一次随机数分配计算，因为不确定因素的增加，红包金额难以预估。整个过程一共计算10次。</p>
@@ -289,18 +288,18 @@ var _hmt = _hmt || [];
 （4）家里猫咪的表现（权重1）： 乖巧（4分）、调皮（2分）、疯了（0分）。
 最终得分=天气得分*天气权重+评论得分*评论权重+空闲得分*空闲权重+猫咪得分*猫咪权重;
 备注：若分值小于等于26则休息。否则根据分值计算抽取话题，生成随机数与最终得分相加得分除10取余，
-0~9分别对应博客的10个标签分类，若为余数在0~9，则选取对应标签的话题进行写作。
+0~9分别对应博客的10个分类标签，若为余数在0~9，则选取对应标签的话题进行写作。
 </code></pre><p>　　最终使用python实现，代码详见<a href="https://github.com/zoewinsor/PythonScript.git" target="_blank" rel="external">PythonScript/choiceforblog.py</a></p>
 <p><img src="/image/20161003/cover.jpg" alt="上帝掷骰子吗?"></p>
-<p>　　不合条件可以偷懒的运行结果如下：</p>
-<pre><code>Today is 2016-10-05
-2016-10-05--&gt;Input:weather：晴，comment：1条，freetime：0 hour，猫疯了
+<p>　　不合条件的运行结果如下：</p>
+<pre><code>Hello,Celine,Today is 2016-10-05
+--&gt;Input:weather：晴，comment：1条，freetime：0 hour，猫疯了
 --&gt;Output:The score is 12
 ...Well,well,well.Have a good rest...
-</code></pre><p>　　符合条件不可抗拒的运行结果如下：</p>
-<pre><code>Today is 2016-10-05
-randomNo：5
-2016-10-05--&gt;Input:weather：晴，comment：5条，freetime：2 hour，猫很乖
+</code></pre><p>　　不可抗拒的运行结果如下：</p>
+<pre><code>Hello,Celine,Today is 2016-10-05
+I give you Random number：5
+--&gt;Input:weather：晴，comment：5条，freetime：2 hours，猫很乖
 --&gt;Output：The score is 46
 --&gt;What a good day.You should write blog. Just do it!
 --&gt;The topic is 自动化
@@ -379,7 +378,7 @@ randomNo：5
         
 <nav id="article-nav">
     
-        <a href="2016-10-06-自动化测试.html" id="article-nav-newer" class="article-nav-link-wrap">
+        <a href="2016-10-07-自动化测试.html" id="article-nav-newer" class="article-nav-link-wrap">
             <strong class="article-nav-caption">上一篇</strong>
             <div class="article-nav-title">
                 
@@ -460,7 +459,7 @@ randomNo：5
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="2016-10-06-自动化测试.html" class="thumbnail">
+                            <a href="2016-10-07-自动化测试.html" class="thumbnail">
     
     
         <span style="background-image:url(/image/20161004/thumbnail_autotest.jpg)" alt="自动化测试序言" class="thumbnail-image"></span>
@@ -471,8 +470,8 @@ randomNo：5
                         
                         <div class="item-inner">
                             <p class="item-category"><a class="article-category-link" href="../../categories/原创/">原创</a></p>
-                            <p class="item-title"><a href="2016-10-06-自动化测试.html" class="title">自动化测试序言</a></p>
-                            <p class="item-date"><time datetime="2016-10-05T16:02:29.000Z" itemprop="datePublished">2016-10-06</time></p>
+                            <p class="item-title"><a href="2016-10-07-自动化测试.html" class="title">自动化测试序言</a></p>
+                            <p class="item-date"><time datetime="2016-10-07T02:02:29.000Z" itemprop="datePublished">2016-10-07</time></p>
                         </div>
                     </li>
                 
