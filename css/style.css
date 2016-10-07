@@ -116,7 +116,7 @@ body,
   height: 100%;
 }
 body {
-  color: #565a5f;
+  color: color-defaultn;
   background: #f5f8f9;
   font: 14px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -129,14 +129,11 @@ a:visited {
   color: #b29b69;
 }
 code {
-  margin: 0 2px;
-  color: #e96900;
-  padding: 3px 5px;
-  font-size: 0.8em;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
-  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
-  background-color: #f8f8f8;
+  color: #128cd5;
+  font-size: 0.9em;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #f8f1f1;
 }
 .outer {
   max-width: 1320px;
