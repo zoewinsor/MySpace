@@ -161,7 +161,7 @@ var _hmt = _hmt || [];
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
-                3
+                2
                 <span>文章</span>
             </div>
             <div class="article-info-block">
@@ -208,170 +208,6 @@ var _hmt = _hmt || [];
 
             
             <section id="main">
-    <article id="post-Python笔记" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="posts/手记/2016-12-01-Python笔记.html">Python笔记-基础篇</a>
-        </h1>
-    
-
-                
-                    <div class="article-meta">
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="posts/手记/2016-12-01-Python笔记.html">
-            <time datetime="2016-12-01T08:53:10.000Z" itemprop="datePublished">2016-12-01</time>
-        </a>
-    </div>
-
-
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="categories/手记/">手记</a>
-    </div>
-
-                        
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="tags/编程/">编程</a>
-    </div>
-
-                    </div>
-                
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            
-            <h4 id="Python文件的扩展名"><a href="#Python文件的扩展名" class="headerlink" title="Python文件的扩展名"></a>Python文件的扩展名</h4><p>　　扩展名分为3类：源代码（*.py、*.pyw）、字节代码(*.pyc)、优化代码(*.pyo)，其中*.pyo是优化过的源文件，需要使用命令行工具生成，不能使用文本编辑工具打开或修改。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">python -O -m py_compile hello.py</div></pre></td></tr></table></figure></p>
-<p>参数注解：-O表示生成优化代码；-m表示把导入的py_compile模块作为脚本运行。编译*.pyo需要调用py_compile模块的compile()方法。</p>
-<h4 id="Python的编码规则"><a href="#Python的编码规则" class="headerlink" title="Python的编码规则"></a>Python的编码规则</h4><p>命名规则：</p>
-<ul>
-<li>变量名、包名、模块名通常采用小写，可使用下划线</li>
-<li>类名首字母采用大写，对象名采用小写。类的属性和方法名以都西昂作为前缀。类的私有变量、私有方法以两个下划线作为前缀。</li>
-<li>函数名通常采用小写，并用下划线或单词首字母大写增加名称的可读性，导入的函数以模块名做前缀。</li>
-<li>变量的命名应尽可能地表达此变量的作用，尽量避免使用缩写，以至于任何人都能理解变量名的含义。</li>
-</ul>
-<p>模块导入的规范：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">from...import...#只导入模块中的一部分内容</div><div class="line">import  #在当前程序的命名空间中创建导入模块的引用</div></pre></td></tr></table></figure></p>
-<p>使用空行分隔代码：分隔两段不同功能或者含义的代码。</p>
-<p>正确注释：</p>
-<ul>
-<li><p>中文注释：如果需要在代码中使用中文注释，必须在Python文件的最前面加上如下注释说明；</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#-*- coding: UTF-8 -*-</div></pre></td></tr></table></figure>
-</li>
-<li><p>跨平台注释：如果需要使Python程序运行在*nix系统中，最好在Python文件的最前面加上如下注释说明</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#!/usr/bin/python</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<p>语句分隔：分号可有可无，Python支持多行写一条语句，Python是用”\”作为换行符。</p>
-<h4 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h4><p>变量的定义和使用：</p>
-<ul>
-<li>变量的命名：变量由字母、数字或下划线组成。变量的第1个字符必须是字母或下划线，其他字符可以由字母、数字或下划线组成。</li>
-<li>变量的赋值：Python中的变量不需要生命，变量的赋值操作及时变量声明和定义的过程。</li>
-<li>局部变量：只在函数或者代码段内使用的变量。</li>
-<li>全局变量：全局变量能够背不同的函数、类或文件共享的变量，在函数之外定义的变量均称为全局变量。全局变量可以被文件内部的任何函数和外部文件访问。关键字global.</li>
-</ul>
-<p>常量的定义和使用：<br>+常量指一旦初始化后就不能改变的变量；关键字const.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">import const</div><div class="line">const.magic=85 #初始化后不可修改</div></pre></td></tr></table></figure></p>
-<p>数据类型：</p>
-<p>Python根据变量的值自动判断变量的类型。<br>Python有几种内置的数据类型：数字、字符串、元组、列表和字典。</p>
-<ul>
-<li>数字：整形、浮点型、布尔型、分数类型、复数类型。</li>
-<li>字符串：单引号、双引号、三引号。三引号是Python特别的语法，单引号、双引号的作用是一样的，三引号中可以输入单引号、双引号或换行等字符；</li>
-<li>元祖：</li>
-<li>列表：</li>
-<li>字典：</li>
-</ul>
-<p>运算符和表达式：</p>
-<ul>
-<li>关系运算符：优先级从高至低&lt;、&lt;=、&gt;、&gt;=,==、!=</li>
-<li>逻辑运算符：优先级从高至低not ，and、or</li>
-<li>算数运算符：</li>
-</ul>
-<p>Python的控制语句：</p>
-<p>结构化编程：具有废止、循环结构的程序<br>条件判断语句：<br>if条件语句<br>if…elif…else…条件语句<br>通过字典实现C语言中类似switch语句的功能<br>while循环语句<br>for循环语句：for 变量in集合<br>中断语句：break,continue</p>
-<p>本文参考：</p>
-<p>声明：原创文章在公众号“夙夜札记”同步，微信ID为RheaTime，如需转载请联系本人！</p>
-
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-    <div class="jiathis_style">
-    <span class="jiathis_txt">分享到：</span>
-    <a class="jiathis_button_qzone">QQ空间</a>
-    <a class="jiathis_button_tsina">新浪微博</a>
-    <a class="jiathis_button_tqq">腾讯微博</a>
-    <a class="jiathis_button_weixin">微信</a>
-    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
-    <a class="jiathis_counter_style"></a>
-</div>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-<style>
-    .jiathis_style div:first-child:not(.jiadiv_01) {
-        width: auto !important;
-        border: none !important;
-    }
-    .jiathis_style .jiadiv_01 {
-        margin: 10px 0;
-        border-radius: 4px;
-        border: #e1e1e1 solid 1px;
-    }
-    .jiathis_style .jiadiv_01 div:first-child {
-        display: none;
-    }
-    .jiathis_style .jiadiv_02 {
-        padding: 7px 0 !important;
-    }
-    .jiathis_style .jiadiv_02 .jiatitle {
-        width: 85px;
-        border: none;
-        height: auto;
-        margin: 3px 10px;
-        padding: 6px 10px;
-        border-radius: 4px;
-    }
-    .jiathis_style .jiadiv_02 .jiatitle:hover {
-        border: none;
-    }
-    .jiathis_style .jiadiv_02 .jiatitle:nth-child(even) {
-        margin-left: 0;
-    }
-    .jiathis_style .jtico:hover {
-        opacity: 1;
-    }
-    .jiathis_style .ckepopBottom,
-    .jiathis_style .centerBottom {
-        width: auto !important;
-        padding: 5px;
-        background: #f7f7f7;
-    }
-</style>
-
-
-
-</div>
-
-            
-    
-        <a href="http://zoey.xin/posts/手记/2016-12-01-Python笔记.html#comments" class="article-comment-link ds-thread-count" data-thread-key="http://zoey.xin/posts/手记/2016-12-01-Python笔记.html">评论</a>
-    
-
-        </footer>
-    </div>
-    
-</article>
-
-
-
     <article id="post-Markdown语法样例" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -704,25 +540,6 @@ var _hmt = _hmt || [];
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="posts/手记/2016-12-01-Python笔记.html" class="thumbnail">
-    
-    
-        <span style="background-image:url(/image/20161101/thumbnail_python.jpg)" alt="Python笔记-基础篇" class="thumbnail-image"></span>
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="categories/手记/">手记</a></p>
-                            <p class="item-title"><a href="posts/手记/2016-12-01-Python笔记.html" class="title">Python笔记-基础篇</a></p>
-                            <p class="item-date"><time datetime="2016-12-01T08:53:10.000Z" itemprop="datePublished">2016-12-01</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
                             <a href="posts/手记/2016-11-01-Markdown语法样例.html" class="thumbnail">
     
     
@@ -767,7 +584,7 @@ var _hmt = _hmt || [];
     <div class="widget-wrap">
         <h3 class="widget-title">分类</h3>
         <div class="widget">
-            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="categories/手记/">手记</a><span class="category-list-count">3</span></li></ul>
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="categories/手记/">手记</a><span class="category-list-count">2</span></li></ul>
         </div>
     </div>
 
@@ -776,7 +593,7 @@ var _hmt = _hmt || [];
     <div class="widget-wrap">
         <h3 class="widget-title">标签云</h3>
         <div class="widget tagcloud">
-            <a href="tags/编程/" style="font-size: 20px;">编程</a> <a href="tags/默认/" style="font-size: 10px;">默认</a>
+            <a href="tags/编程/" style="font-size: 10px;">编程</a> <a href="tags/默认/" style="font-size: 10px;">默认</a>
         </div>
     </div>
 
